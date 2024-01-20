@@ -68,7 +68,6 @@ class Wav2vec2Loss(nn.Module):
 
         # Make negative samples
         negative_samples = self.negative_sampler(labels, num_targets_per_batch)
-        #negative_samples = labels
         negative_samples = torch.cat([labels.unsqueeze(1), negative_samples], dim=1)
 
         contrastive_loss, pos_sim, neg_sim = self.contrastive_loss(target_encoder_out, labels, negative_samples)
@@ -91,7 +90,9 @@ class Wav2vec2Loss(nn.Module):
             negative_samples (torch.Tensor): with shape `(N, K, D)`
 
         Returns:
-            torch.Tensor with shape `(1)`
+            contrastive_loss torch.Tensor with shape `(1)`
+            sim_mean schaler
+            neg_sim_2mean_1mean schaler
         """
 
         sim = self.cos( targets, labels )
@@ -133,7 +134,10 @@ class Wav2vec2Loss(nn.Module):
         """
         negative_samples = []
         start_idx = 0
+        
+        # Change from Original.  K != 100.  K is min of num_target_per_batch
         self.K = min( num_targets_per_batch ) - 1
+        
         for num_targets in num_targets_per_batch:
             negative_sample_candidate_indices = torch.arange(
                 num_targets, device=label.device
