@@ -3,7 +3,7 @@ Wav2Vec2.0 modules with My Original Context Network
 
 Changes of Context Network
 
-The context network of the original Wav2Vec2.0 constitute of Transoformer Encoder, a context network of my original Wav2Vec2.0 constitute of Transformer Encoder, Downsampler, Transforemer Decoder. Inputs of Transformer Decoder are an output of Transformer Encoder as source input and a calculation amount as target input by downsampling the Transformer Encoder output.
+The context network of the original Wav2Vec2.0 constitute of Transoformer Encoder, on the other hand a context network of my original Wav2Vec2.0 constitute of Transformer Encoder, Downsampler, Transforemer Decoder. Inputs of Transformer Decoder are an output of Transformer Encoder as source input and a calculation amount as target input by downsampling the Transformer Encoder output.
 
 A learning of pre-training
 
