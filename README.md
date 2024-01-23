@@ -19,7 +19,7 @@ Data are 7 horus wav voice from JSUT1.1 A learning of 167 epochs about 8 hours w
 
 WER is 5%.
 
-A graph of vlidation loss cahge is
+A graph of vlidation loss change is
 
 ![Fig8](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/f3dd7ddc-d283-4ca0-a7a8-bc3516573c1f)
 
