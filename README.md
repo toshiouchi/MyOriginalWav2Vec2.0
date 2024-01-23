@@ -13,13 +13,13 @@ Data are 50 hours wav voice from JSUT 1.1 and Common Voice Japanese 11. A learni
 
 A learning of fine-tuning
 
-Data are 7 horus wav voice from JSUT1.1 A learning of 167 epochs about 8 hours with a RTX-A6000 were carried out. A graph of train loss change is
+Data are 7 horus wav voice from JSUT1.1 A learning of 167 epochs about 8 hours with a RTX-A6000 were carried out. A graph of train token error change is
 
 ![Fig7](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/a35baad5-b154-4b5e-aa4a-0f98a377691a)
 
 WER is 5%.
 
-A graph of vlidation loss change is
+A graph of vlidation token error change is
 
 ![Fig8](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/f3dd7ddc-d283-4ca0-a7a8-bc3516573c1f)
 
