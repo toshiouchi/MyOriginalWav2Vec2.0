@@ -11,6 +11,8 @@ Data are 50 hours wav voice from JSUT 1.1 and Common Voice Japanese 11. A learni
 
 ![fig1](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/87ff5860-d6d4-4676-b361-b46117f6f84c)
 
+Loss = Lm + α Ld ( α = 100 )
+
 A learning of fine-tuning
 
 Data are 7 horus wav voice from JSUT1.1 A learning of 167 epochs about 8 hours with a RTX-A6000 were carried out. A graph of loss change is
