@@ -24,10 +24,10 @@ A graph of train token error change is
 
 ![Fig7](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/a35baad5-b154-4b5e-aa4a-0f98a377691a)
 
-TER is 5%.
+Token error rate for train data is 5%.
 
 A graph of vlidation token error change is
 
 ![Fig8](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/f3dd7ddc-d283-4ca0-a7a8-bc3516573c1f)
 
-TER is 41%.
+Token error rate of validation data is 41%.
