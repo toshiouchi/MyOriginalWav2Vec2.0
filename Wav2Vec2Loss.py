@@ -19,7 +19,7 @@ hidden_dim = 512
 ouputs = torch.randn( 8, 300, 512 )
 quantized_vector = torch.randn( 8, 300, 512 )
 pgv_bar = torch.randn( 2, 320 )
-mask = torch.randint(low=0, high=1, size=(8,300)).to( torch.bool )
+mask = torch.randint(low=0, high=2, size=(8,300)).to( torch.bool )
 
 # loss の計算など
 loss, lm, ld, pos_sim, neg_sim = wav2vec2loss( outputs, quantized_vector, pgv_bar, mask )
