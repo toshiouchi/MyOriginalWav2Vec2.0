@@ -1,7 +1,7 @@
 '''
 A feature of this class is to be able to calculate Lm without K.
 Lm can be calculated without sampling about negative sample.
-Lm is calculated for all cases about negative sample
+Lm is calculated for all cases about negative sample including positive sample.
 -------------.
 call usage
 ------------
