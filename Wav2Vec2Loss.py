@@ -2,6 +2,7 @@
 A feature of this class is to be able to calculate Lm without K.
 Lm can be calculated without sampling about negative sample.
 Lm is calculated for all cases about negative sample including positive sample.
+A currnet context network uses downsampling, so time sequence of model's outputs is small.
 This class is special, yet do not use in ordinary calculation.
 In ordinary caluculation K = min( num_targets_per_batch ) module was used.
 -------------.
