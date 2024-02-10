@@ -1,5 +1,5 @@
 # MyOriginalWav2Vec2.0
-Wav2Vec2.0 modules with My Original Context Network
+Wav2Vec2.0 modules with My Original Context Network.
 
 Changes of Context Network
 
