@@ -74,3 +74,16 @@ T.E.R.　for validation data decreased to 17.9% level
 
 #### Changing of Learning Rate
 ![Fig38](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/8570c523-2993-4e04-8604-0580bd47cbf9)
+
+#### Train data inference of finale epoch
+```
+  validation, reference :pop goes right on tuning his channel
+  validation, hypothesis:popgos right ontorning is canno
+  validation, reference :you're getting altogether too upset about these programs stop it and behave yourself
+  validation, hypothesis:you getning altogether to ops sait about the's probrams stopt it an the heniorself
+  validation, reference :it's your fault mop it up yourself
+  validation, hypothesis:bit youre fall mobed at yourself
+  validation, reference :i hear the t v going for a few minutes then pop turns it off and goes in the kitchen to talk to mom
+  validation, hypothesis:i heare the tee by going for af houw minutes then poped hurmed hat off and dose in the kitch en to topk the mon
+    validation loss: 1.420961
+```
