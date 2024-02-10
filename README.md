@@ -59,6 +59,7 @@ Calculations stopped due to a power outage that lasted about 0.5 seconds.
 
 #### Changing of Loss
 ![Fig35](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/7446c65a-adad-40b5-a23f-4a7930907ef2)
+
 Validation loss increased during the process, but validation token error rate did not increase, so learning continued.
 
 #### Changing of Train Token Error Rate 
