@@ -77,7 +77,7 @@ T.E.R.　for validation data decreased to 17.9% level
 
 #### Train data inference of finale epoch
 ```
-     train, reference :when he came to himself natasha that same living natasha whom of all people he most longed to love with this new pure divine love that had been revealed to him was kneeling before him
+      train, reference :when he came to himself natasha that same living natasha whom of all people he most longed to love with this new pure divine love that had been revealed to him was kneeling before him
        train, hypothesis:when he came to himself natasha that same living natasha whom of all people he most longed to love with this new pure divine love that had been revealed to him was kneeling before him
        train, reference :and endeavoured to comfort them they treated them as well as their poverty would permit took off their horse hair shifts which were very uneasy to them and put on them others which they gave them with shoes and something to cover their heads and save their hair
        train, hypothesis:and endeavoured to comfort them they treated them as well as their poverty would permit took off their horse hair shifts which were very uneasy to them and put on them others which they gave them with shoes and something to cover their heads and save their hair
