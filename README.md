@@ -100,6 +100,7 @@ T.E.R.　for validation data decreased to 17.9% level
   validation, reference :i hear the t v going for a few minutes then pop turns it off and goes in the kitchen to talk to mom
   validation, hypothesis:i heare the tee by going for af houw minutes then poped hurmed hat off and dose in the kitch en to topk the mon
     validation loss: 1.420961
+    validation token error rate: 17.984905 %
 ```
 #### Result of calculation
 ```
