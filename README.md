@@ -57,6 +57,8 @@ Calculations stopped due to a power outage that lasted about 0.5 seconds.
 
 ### With 10000 data in Libri clean 100 hours data fine tuning was carried out.
 
+Token was character.
+
 #### Changing of Loss
 ![Fig35](https://github.com/toshiouchi/MyOriginalWav2Vec2.0/assets/121741811/7446c65a-adad-40b5-a23f-4a7930907ef2)
 
