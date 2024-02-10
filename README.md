@@ -77,6 +77,20 @@ T.E.R.　for validation data decreased to 17.9% level
 
 #### Train data inference of finale epoch
 ```
+     train, reference :when he came to himself natasha that same living natasha whom of all people he most longed to love with this new pure divine love that had been revealed to him was kneeling before him
+       train, hypothesis:when he came to himself natasha that same living natasha whom of all people he most longed to love with this new pure divine love that had been revealed to him was kneeling before him
+       train, reference :and endeavoured to comfort them they treated them as well as their poverty would permit took off their horse hair shifts which were very uneasy to them and put on them others which they gave them with shoes and something to cover their heads and save their hair
+       train, hypothesis:and endeavoured to comfort them they treated them as well as their poverty would permit took off their horse hair shifts which were very uneasy to them and put on them others which they gave them with shoes and something to cover their heads and save their hair
+       train, reference :or without speaking to the procureur well i have business with the procureur is it pressing business you can imagine so since i have not even brought my carriage out yet but enough of this here is my card
+       train, hypothesis:or without speaking to the procureur well i have business with the procureur is it pressing business you can imagine so since i have not even brought my carriage out yet but enough of this here is my card
+       train, reference :the knave shall die the law hath said while it protects our own slave trade what earthly eye presumes to scan the wily proteus heart of man what potent hand will e'er unroll
+       train, hypothesis:the knave shall die the law hath said while it protects our own slave trade what earthly eye presumes to scan the wily proteus heart of man what potent hand will e'er unroll
+    train loss: 0.002890
+    train token error rate: 0.054161 %
+```
+
+#### Validation data inference of finale epoch
+```
   validation, reference :pop goes right on tuning his channel
   validation, hypothesis:popgos right ontorning is canno
   validation, reference :you're getting altogether too upset about these programs stop it and behave yourself
@@ -86,4 +100,18 @@ T.E.R.　for validation data decreased to 17.9% level
   validation, reference :i hear the t v going for a few minutes then pop turns it off and goes in the kitchen to talk to mom
   validation, hypothesis:i heare the tee by going for af houw minutes then poped hurmed hat off and dose in the kitch en to topk the mon
     validation loss: 1.420961
+```
+#### Result of calculation
+```
+---------------Summary------------------
+Final epoch model -> ./exp_train_large_360/char_model_wav2vec2.0_078/final_model_ft.pt
+    train loss: 0.002890
+    train token error rate: 0.054161 %
+    validation loss: 1.420961
+    validation token error rate: 17.984905 %
+Best epoch model (100-th epoch) -> ./exp_train_large_360/char_model_wav2vec2.0_078/best_model_ft.pt
+    train loss: 0.002833
+    train token error rate: 0.054216 %
+    validation loss: 1.424611
+    validation token error rate: 18.020846 %
 ```
