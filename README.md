@@ -34,7 +34,7 @@ Token error rate of validation data is 41%.
 
 ## postscript
 
-We carried out post calculation with Context Network with Transformer Encoder ( layers = 6, heads = 8, hidden_dim = 512, two convolution layer feed foward network with hiddem dim = (512, 2048) (2048,512 ) kernel_size = ( 5, 1  )) + Downsampler with downsampling_rate = 0.7 + Transformer Decoder with speculation similar to Transformer Encoder. 
+We carried out post calculation with Context Network with Transformer Encoder ( layers = 6, heads = 8, hidden_dim = 512, two convolution layer in spoite of position wise feed foward network with hiddem dim = (512, 2048) (2048,512 ) kernel_size = ( 5, 1  )) + Downsampler with downsampling_rate = 0.7 + Transformer Decoder with speculation similar to Transformer Encoder. 
 
 ### With Libri clean 360 hours data pre-training was carried out.
 
