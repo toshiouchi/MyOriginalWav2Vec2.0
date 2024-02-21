@@ -116,3 +116,53 @@ Best epoch model (100-th epoch) -> ./exp_train_large_360/char_model_wav2vec2.0_0
     validation loss: 1.424611
     validation token error rate: 18.020846 %
 ```
+### Re-calculation of learning
+
+Because the pre-traing stopped due to a power outage, re-calculation was carried out for pre-training and fine tuning. Validation Token Error Rate decreased 17.6 %.
+
+#### Train data inference of final epoch
+
+```
+       train, reference :where no soul could either see them or know who they were they were to enter the lists four several times those who were so happy as to conquer four competitors were afterwards to engage each other in single combat
+       train, hypothesis:where no soul could either see them or know who they were they were to enter the lists four several times those who were so happy as to conquer four competitors were afterwards to engage each other in single combat
+       train, reference :and then to banish us out of syria for ever but how unworthy soever our usage has been
+       train, hypothesis:and then to banish us out of syria for ever but how unworthy soever our usage has been
+       train, reference :he was a huge fellow terribly scarred about the face and chest and with one broken tusk and a missing ear
+       train, hypothesis:he was a huge fellow terribly scarred about the face and chest and with one broken tusk and a missing ear
+       train, reference :had really not made in her own country the mark she had chalked so large in london
+       train, hypothesis:had really not made in her own country the mark she had chalked so large in london
+    train loss: 0.002554
+    train token error rate: 0.046643 %
+```
+
+#### Validation data inference of final epoch
+
+```
+ validation, reference :pop goes right on tuning his channel
+  validation, hypothesis:pup gos ried on toning is chaw
+  validation, reference :you're getting altogether too upset about these programs stop it and behave yourself
+  validation, hypothesis:you geing altogether to f set about theis probrams stop in and the hed yorself
+  validation, reference :it's your fault mop it up yourself
+  validation, hypothesis:its your fallt mobbit uf yourself
+  validation, reference :i hear the t v going for a few minutes then pop turns it off and goes in the kitchen to talk to mom
+  validation, hypothesis:i hear the peav bye going for a hew minutes than popped uirned that of and ghose in the katchen to top the mom
+    validation loss: 1.327640
+    validation token error rate: 16.784473 %
+```
+
+#### Result of re-calculation
+
+```
+---------------Summary------------------
+Final epoch model -> ./exp_train_large_360/char_model_wav2vec2.0_086/final_model_ft.pt
+    train loss: 0.002554
+    train token error rate: 0.046643 %
+    validation loss: 1.327640
+    validation token error rate: 16.784473 %
+Best epoch model (91-th epoch) -> ./exp_train_large_360/char_model_wav2vec2.0_086/best_model_ft.pt
+    train loss: 0.002552
+    train token error rate: 0.047411 %
+    validation loss: 1.326912
+    validation token error rate: 16.714987 %
+```
+
